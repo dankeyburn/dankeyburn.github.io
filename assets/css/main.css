@@ -3932,6 +3932,16 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   line-height: 1.1;
   margin: 0 0 2rem 0;
 }
+#main > .introduction header.major > h1,
+#main > .introduction header.major h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0 0 2rem 0;
+}
+
+#main > .introduction {
+  text-align: left;
+}
 
 #main > .work.experience {
   text-align: left;
@@ -3955,6 +3965,16 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 .thumb {
   max-width: 50px;
+}
+
+.portrait {
+  margin: auto;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1280px) {

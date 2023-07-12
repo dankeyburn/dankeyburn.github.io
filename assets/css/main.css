@@ -250,7 +250,7 @@ body,
 input,
 select,
 textarea {
-  font-family: "Roboto", Georgia, serif;
+  font-family: "Roboto";
   font-weight: 300;
   font-size: 1rem;
   line-height: 2.375;
@@ -286,6 +286,7 @@ i {
 p {
   text-align: justify;
   margin: 0 0 2rem 0;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -363,7 +364,7 @@ blockquote {
 
 code {
   border: solid 2px;
-  font-family: "Courier New", monospace;
+  font-family: "Roboto", monospace;
   font-size: 0.9rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem;
@@ -371,7 +372,7 @@ code {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: "Roboto", monospace;
   font-size: 0.9rem;
   margin: 0 0 2rem 0;
 }
@@ -2197,7 +2198,7 @@ button,
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 0.075em;
   height: 3rem;

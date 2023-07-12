@@ -140,6 +140,20 @@ table {
 body {
   -webkit-text-size-adjust: none;
 }
+/* Dark Theme  */
+#theme-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #596aff;
+}
+#theme-btn:hover {
+  color: #bb86fc;
+}
+
+.changeTheme {
+  background: #1d1e22;
+  color: #eee;
+}
 
 mark {
   background-color: transparent;
@@ -236,7 +250,7 @@ body,
 input,
 select,
 textarea {
-  font-family: "Merriweather", Georgia, serif;
+  font-family: "Roboto", Georgia, serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 2.375;
@@ -3020,12 +3034,12 @@ header > .date {
   position: relative;
 }
 
-header > p {
+/* header > p {
   font-style: italic;
-}
+} */
 
 header > h1 + p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-top: -0.5rem;
   line-height: 2;
 }
@@ -3036,7 +3050,7 @@ header > h2 + p {
 }
 
 header > h3 + p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: -0.75rem;
 }
 

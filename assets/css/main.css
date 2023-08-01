@@ -2736,9 +2736,9 @@ input[type="radio"]:focus + label:before {
 }
 
 .image.fit {
-  display: block;
+  display: inline-block;
   margin: 2.5rem 0;
-  width: 100%;
+  width: 70%;
 }
 
 .image.fit:first-child {
